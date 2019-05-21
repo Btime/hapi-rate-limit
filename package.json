@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "lab -f -dL",
-    "test": "lab -fL -m 3000 -t 100 -v"
+    "test": "lab -f -m 3000 -t 100 -v"
   },
   "repository": {
     "type": "git",
@@ -26,23 +26,23 @@
   ],
   "homepage": "https://github.com/wraithgar/hapi-rate-limit#readme",
   "peerDependencies": {
-    "hapi": ">=17.0.0"
+    "@hapi/joi": ">=17.0.0"
   },
   "dependencies": {
-    "boom": "^7.2.0",
-    "joi": "^14.3.0"
+    "boom": "github:btime/boom",
+    "@hapi/joi": "^15.0.3"
   },
   "files": [
     "index.js",
     "lib"
   ],
   "devDependencies": {
-    "catbox-memory": "^4.0.0",
-    "code": "^5.2.0",
-    "eslint": "^5.15.3",
-    "eslint-plugin-hapi": "^4.1.0",
+    "eslint": "^5.16.0",
     "git-validate": "^2.2.4",
-    "hapi": "^18.0.1",
-    "lab": "^18.0.2"
+    "@hapi/catbox-memory": "^4.1.0",
+    "@hapi/code": "^5.3.1",
+    "@hapi/hapi": "^18.3.0",
+    "@hapi/lab": "^19.0.1",
+    "@hapi/eslint-plugin-hapi": "^4.3.3"
   }
 }
